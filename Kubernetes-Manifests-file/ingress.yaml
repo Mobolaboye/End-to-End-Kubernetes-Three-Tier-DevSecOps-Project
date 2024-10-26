@@ -11,7 +11,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: anmutedevops.com
+    - host: backend.anmutedevops.com
       http:
         paths:
           - path: /api
